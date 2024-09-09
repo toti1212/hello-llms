@@ -1,0 +1,13 @@
+[project]
+name = "connect-llm"
+version = "0.1.0"
+authors = ["Rodrigo Suárez <rodrigosrz12@gmail.com>"]
+description = "First project using LLMs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-openai>=0.1.23",
+    "langchain>=0.2.10",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.6.4",
+]

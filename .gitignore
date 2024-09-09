@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+
+# Ruff
+ruff-cache/
+
+# Pytest
+.pytest_cache/
+
+# Pytype
+.pytype/
+
+# UV
+.uv/
+
+# PyCharm
+*.iml
+
+# VS Code
+.vscode/  
