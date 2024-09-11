@@ -15,8 +15,14 @@ def main():
     )
 
     messages = [
-        ("system","You are a expert in python programming and you are tasked to help me with my code."),
-        ("human", "What is the best way to learn python architecture as a professional developer from a big tech company?")
+        (
+            "system",
+            "You are a expert in python programming and you are tasked to help me with my code.",
+        ),
+        (
+            "human",
+            "What is the best way to learn python architecture as a professional developer from a big tech company?",
+        ),
     ]
     response = llm.invoke(messages)
     print(response.content)
