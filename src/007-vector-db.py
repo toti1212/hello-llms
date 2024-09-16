@@ -79,9 +79,18 @@ def main():
         | llm
         | parser
     )
-    result = rag_chain.invoke(input_query)
     print("RAG chain result:")
-    print(result)
+
+    # invoke
+    # result = rag_chain.invoke(input_query)
+    # print(result)
+
+    # stream
+    for s in rag_chain.stream(input_query):
+        print(s)
+
+    # batch
+    # used for a list of inputs: like: give me a recipie for a cake, a pizza and a sandwich.
 
 
 if __name__ == "__main__":
