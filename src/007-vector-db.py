@@ -74,6 +74,8 @@ def main():
     llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
     print("RAG chain result:")
     rag_chain = (
+        # This line is the same as:
+        # RunnableParallel({"context": retriever, "question": RunnablePassthrough()})
         {"context": retriever | format_docs, "question": RunnablePassthrough()}
         | prompt
         | llm
