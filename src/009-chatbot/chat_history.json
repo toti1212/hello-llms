@@ -1,0 +1,110 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "hola, mi nombre es rodrigo",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\u00a1Hola Rodrigo! \u00bfEn qu\u00e9 puedo ayudarte hoy?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "que bebida se toma en uruguay con un termo?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "En Uruguay se suele tomar mate con un termo. El mate es una infusi\u00f3n tradicional de la regi\u00f3n que se prepara con yerba mate y se sirve en un recipiente llamado mate, que se comparte entre amigos o familiares. El termo se utiliza para mantener el agua caliente y poder ir rellenando el mate a medida que se va consumiendo. \u00a1Es una costumbre muy arraigada en la cultura uruguaya!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "como me llamo?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "Tu nombre es Rodrigo. \u00bfHay algo m\u00e1s en lo que pueda ayudarte?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "gracais",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\u00a1De nada! Si tienes alguna otra pregunta en el futuro, no dudes en volver. \u00a1Que tengas un buen d\u00eda, Rodrigo!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  }
+]
